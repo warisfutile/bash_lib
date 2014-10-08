@@ -1,0 +1,13 @@
+Synopsis: bash_lib provides an easy one file sourcing to give you access to commonly used functions and 
+variables to save time when writing scripts in bash.
+
+Support platforms
+Currently bash_lib has been tested in Red Hat Enterprise Linux (RHEL) 5 and RHEL 6
+
+
+USAGE: bash_lib [-h | --help] [-i | --import] [-l | --list] [-v | --version]
+
+     -h | --help      Show additonal details on how to call this script and variable information
+     -i | --import    When run interactively, will execute the init function
+     -l | --list      List available functions and usage
+     -v | --version   What version of this script is running
